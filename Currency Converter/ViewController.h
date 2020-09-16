@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<UITextFieldDelegate,UIPickerViewDataSource, UIPickerViewDelegate>
+{
+    NSString *currencyStr,*apiKey,*fromCurr,*toCurr;
+    NSArray *currencies;
+}
+-(void) alertConversionData:(double)currencyValue;
+@property (weak,nonatomic) IBOutlet UITextField *textField;
+@property (weak,nonatomic) IBOutlet UIPickerView *pickerViewFrom;
+@property (weak,nonatomic) IBOutlet UIPickerView *pickerViewTo;
+- (IBAction)convertPressed:(UIButton *)sender;
 @end
-

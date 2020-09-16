@@ -14,10 +14,11 @@
 		24DF2B012510F14100CF0307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DF2B002510F14100CF0307 /* Assets.xcassets */; };
 		24DF2B042510F14100CF0307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF2B022510F14100CF0307 /* LaunchScreen.storyboard */; };
 		24DF2B072510F14100CF0307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF2B062510F14100CF0307 /* main.m */; };
+		24DF2B222512128D00CF0307 /* APISecrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24DF2B212512128D00CF0307 /* APISecrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24DF2AF12510F14100CF0307 /* Currency Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DF2AF12510F14100CF0307 /* To My Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To My Currency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DF2AF42510F14100CF0307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24DF2AF52510F14100CF0307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24DF2AF72510F14100CF0307 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		24DF2B032510F14100CF0307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DF2B052510F14100CF0307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DF2B062510F14100CF0307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24DF2B212512128D00CF0307 /* APISecrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APISecrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 		24DF2AF22510F14100CF0307 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24DF2AF12510F14100CF0307 /* Currency Converter.app */,
+				24DF2AF12510F14100CF0307 /* To My Currency.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +74,7 @@
 				24DF2B022510F14100CF0307 /* LaunchScreen.storyboard */,
 				24DF2B052510F14100CF0307 /* Info.plist */,
 				24DF2B062510F14100CF0307 /* main.m */,
+				24DF2B212512128D00CF0307 /* APISecrets.plist */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -93,7 +96,7 @@
 			);
 			name = "Currency Converter";
 			productName = "Currency Converter";
-			productReference = 24DF2AF12510F14100CF0307 /* Currency Converter.app */;
+			productReference = 24DF2AF12510F14100CF0307 /* To My Currency.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DF2B042510F14100CF0307 /* LaunchScreen.storyboard in Resources */,
+				24DF2B222512128D00CF0307 /* APISecrets.plist in Resources */,
 				24DF2B012510F14100CF0307 /* Assets.xcassets in Resources */,
 				24DF2AFF2510F14100CF0307 /* Main.storyboard in Resources */,
 			);
@@ -297,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ameermuhammed.Currency-Converter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "To My Currency";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ameermuhammed.Currency-Converter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "To My Currency";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
